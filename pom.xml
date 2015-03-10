@@ -8,5 +8,11 @@
     <artifactId>FileServer</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    
+<!--    <distributionManagement>
+        <repository>
+            <id>DEV</id>
+            <url></url>
+        </repository>
+    </distributionManagement>
+-->
 </project>
