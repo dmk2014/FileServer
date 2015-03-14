@@ -19,7 +19,7 @@ public class FileServerGUI {
     public FileServerGUI() {
         frame = new JFrame();
         frame.setTitle("FileServer");
-        frame.setIconImage(new ImageIcon(getClass().getResource("servericon.png")).getImage());
+        //frame.setIconImage(new ImageIcon(getClass().getResource("servericon.png")).getImage());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);
         frame.setSize(500, 270);
