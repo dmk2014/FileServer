@@ -25,5 +25,8 @@
         <module name="FileServer" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="FileServer" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
