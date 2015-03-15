@@ -41,6 +41,16 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <configuration>
                     <webXml>web\WEB-INF\*.xml</webXml>
+                    <webResources>
+                        <resource>
+                            <directory>web\WEB-INF</directory>
+                            <target-path>WEB-INF</target-path>
+                            <filtering>true</filtering>
+                            <excludes>
+                                <exclude>web.xml</exclude>
+                            </excludes>
+                        </resource>
+                    </webResources>
                 </configuration>
             </plugin>
             <plugin>
