@@ -5,5 +5,5 @@
     <endpoint
             name='FTP'
             implementation='ftp.FileServer'
-            url-pattern='/'/>
+            url-pattern='/ftpservice'/>
 </endpoints>
