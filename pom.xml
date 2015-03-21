@@ -26,7 +26,7 @@
     </pluginRepositories>
 
     <build>
-         <finalName>FileServer</finalName>
+        <finalName>FileServer</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -58,6 +58,29 @@
                 <groupId>org.glassfish.maven.plugin</groupId>
                 <artifactId>maven-glassfish-plugin</artifactId>
                 <version>2.1</version>
+                <configuration>
+                    <glassfishDirectory>C:\glassfish-4.1\glassfish4</glassfishDirectory>
+                    <user>admin</user>
+                    <domain>
+                        <name>domain1</name>
+                        <host>http://172.31.44.231</host>
+                        <port>8080</port>
+                        <adminport>4848</adminport>
+                    </domain>
+                    <components>
+                        <component>
+                            <name>FileServer</name>
+                            <artifact>target/FileServer.war</artifact>
+                        </component>
+                    </components>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>deploy</goal> <!--  mvn glassfish:deploy without this, mvn deploy -->
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
