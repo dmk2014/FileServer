@@ -60,7 +60,8 @@
                 <version>2.1</version>
                 <configuration>
                     <glassfishDirectory>C:\glassfish-4.1\glassfish4</glassfishDirectory>
-                    <user>admin</user>
+                    <user>${local.glassfish.user}</user>
+                    <adminPassword>${local.glassfish.adminPassword}</adminPassword>
                     <domain>
                         <name>domain1</name>
                         <host>http://172.31.44.231</host>
