@@ -64,8 +64,8 @@
                     <domain>
                         <name>domain1</name>
                         <host>http://172.31.44.231</host>
-                        <port>8080</port>
-                        <adminport>4848</adminport>
+                        <httpPort>8080</httpPort>
+                        <adminPort>4848</adminPort>
                     </domain>
                     <components>
                         <component>
