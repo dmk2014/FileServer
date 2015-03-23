@@ -36,7 +36,7 @@
             <url>http://download.java.net/maven/2</url>
         </pluginRepository>
 		
-		<!-- http://cargo.codehaus.org/JSR88 --->
+		<!-- http://cargo.codehaus.org/JSR88 -->
 		<pluginRepository>
      <id>glassfish</id>
      <url>http://download.java.net/maven/glassfish</url>
