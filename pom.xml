@@ -35,7 +35,20 @@
             <name>Java.net Maven2 Repository</name>
             <url>http://download.java.net/maven/2</url>
         </pluginRepository>
+		
+		<!-- http://cargo.codehaus.org/JSR88 --->
+		<pluginRepository>
+     <id>glassfish</id>
+     <url>http://download.java.net/maven/glassfish</url>
+  </pluginRepository>
     </pluginRepositories>
+	
+	<repositories>
+  <repository>
+     <id>glassfish</id>
+     <url>http://download.java.net/maven/glassfish</url>
+  </repository>
+</repositories>
 
     <build>
         <finalName>FileServer</finalName>
