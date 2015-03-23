@@ -113,9 +113,6 @@
 						<deployables>
                             <deployable>
                                 <location>target/FileServer.war</location>
-                                <properties>
-                                    <name>FileServer</name>
-                                </properties>
                                 <type>war</type>
                             </deployable>
                         </deployables>
