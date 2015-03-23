@@ -116,6 +116,14 @@
                                 <type>war</type>
                             </deployable>
                         </deployables>
+						
+						<dependencies>
+							<dependency>
+								<groupId>org.glassfish.deployment</groupId>
+								<artifactId>deployment-client</artifactId>
+								<version>3.2-b06</version>
+							</dependency>
+						</dependencies>
 
                     </configuration>
 			</plugin>
