@@ -121,7 +121,7 @@
 							<dependency>
 								<groupId>org.glassfish.deployment</groupId>
 								<artifactId>deployment-client</artifactId>
-								<version>3.2-b06</version>
+								<version>10.0-b28</version>
 							</dependency>
 						</dependencies>
 
