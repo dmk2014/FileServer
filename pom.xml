@@ -119,9 +119,10 @@
                         <configuration>
                             <type>runtime</type>
                             <properties>
-                                <cargo.hostname>https://172.31.44.231</cargo.hostname>
-                                <cargo.remote.port>4848</cargo.remote.port>
+                                <cargo.hostname>172.31.44.231</cargo.hostname>
+                                <cargo.servlet.port>8080</cargo.servlet.port>
 								<cargo.glassfish.domain.name>domain1</cargo.glassfish.domain.name>
+                                <cargo.glassfish.adminPort>4848</cargo.glassfish.adminPort>
                                 <cargo.remote.username>${glassfish.local.user}</cargo.remote.username>
                                 <cargo.remote.password>${glassfish.local.adminPassword}</cargo.remote.password>
                             </properties>
