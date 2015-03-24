@@ -120,19 +120,17 @@
                             <type>runtime</type>
                             <properties>
                                 <cargo.hostname>172.31.44.231</cargo.hostname>
-								<cargo.glassfish.domain.name>domain1</cargo.glassfish.domain.name>
-                                <cargo.glassfish.adminPort>4848</cargo.glassfish.adminPort>
                                 <cargo.remote.username>${glassfish.dev.user}</cargo.remote.username>
                                 <cargo.remote.password>${glassfish.dev.password}</cargo.remote.password>
                             </properties>
                         </configuration>
 						
-						<deployables>
+						<!--<deployables>
                             <deployable>
                                 <location>target/FileServer.war</location>
                                 <type>war</type>
                             </deployable>
-                        </deployables>
+                        </deployables> -->
                 </configuration>
 
                 <dependencies>
@@ -153,15 +151,6 @@
         </plugins>
     </build>
 
-<!--    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
--->
 <!--    <distributionManagement>
         <repository>
             <id>DEV</id>
