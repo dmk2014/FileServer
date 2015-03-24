@@ -120,7 +120,6 @@
                             <type>runtime</type>
                             <properties>
                                 <cargo.hostname>172.31.44.231</cargo.hostname>
-                                <cargo.servlet.port>8080</cargo.servlet.port>
 								<cargo.glassfish.domain.name>domain1</cargo.glassfish.domain.name>
                                 <cargo.glassfish.adminPort>4848</cargo.glassfish.adminPort>
                                 <cargo.remote.username>${glassfish.dev.user}</cargo.remote.username>
