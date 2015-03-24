@@ -7,10 +7,12 @@
           <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
         </descriptors>
         <webroots>
-          <root url="file://$MODULE_DIR$/web" relative="/" />
+          <root url="file://$MODULE_DIR$/web/WEB-INF" relative="/" />
+          <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
         <sourceRoots>
-          <root url="file://$MODULE_DIR$/src" />
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
         </sourceRoots>
       </configuration>
       <facet type="webservices" name="WebServices">
@@ -44,5 +46,56 @@
     <orderEntry type="library" name="Maven: junit:junit:3.8" level="project" />
     <orderEntry type="library" name="Maven: com.sun.org.apache.xml.internal:resolver:20050927" level="project" />
     <orderEntry type="library" name="Maven: org.jvnet:mimepull:1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.cargo:cargo-maven2-plugin:1.4.13" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-plugin-api:2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-project:2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-profile:2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-model:2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact-manager:2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-repository-metadata:2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.wagon:wagon-provider-api:1.0-alpha-5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact:2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-container-default:1.0-alpha-8" level="project" />
+    <orderEntry type="library" name="Maven: classworlds:classworlds:1.1-alpha-2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-settings:2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-archiver:2.4.1" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-archiver:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-io:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-interpolation:1.13" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-utils:1.4.7" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.cargo:cargo-core-api-generic:1.4.13" level="project" />
+    <orderEntry type="library" name="Maven: commons-discovery:commons-discovery:0.4" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.cargo:cargo-core-api-container:1.4.13" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.cargo:cargo-core-api-module:1.4.13" level="project" />
+    <orderEntry type="library" name="Maven: jdom:jdom:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.geronimo.specs:geronimo-j2ee-deployment_1.1_spec:1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.cargo:cargo-documentation:1.4.13" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.cargo:cargo-daemon-client:1.4.13" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.cargo:cargo-core-api-util:1.4.13" level="project" />
+    <orderEntry type="library" name="Maven: dom4j:dom4j:1.4" level="project" />
+    <orderEntry type="library" name="Maven: xml-apis:xml-apis:1.0.b2" level="project" />
+    <orderEntry type="library" name="Maven: jaxen:jaxen:1.0-FCS" level="project" />
+    <orderEntry type="library" name="Maven: saxpath:saxpath:1.0-FCS" level="project" />
+    <orderEntry type="library" name="Maven: msv:msv:20020414" level="project" />
+    <orderEntry type="library" name="Maven: relaxngDatatype:relaxngDatatype:20020414" level="project" />
+    <orderEntry type="library" name="Maven: isorelax:isorelax:20020414" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.ant:ant:1.7.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.ant:ant-launcher:1.7.1" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.deployment:deployment-client:10.0-b28" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.common:common-util:10.0-b28" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.enterprise:hk2:0.3.31" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.enterprise:hk2-core:0.3.31" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.enterprise:config:0.3.31" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.enterprise:tiger-types-osgi:0.3.31" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.enterprise:auto-depends:0.3.31" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.common:glassfish-api:10.0.422" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish:javax.xml.stream:10.0-b28" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.admin:admin-cli:10.0-b28" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.admin:cli-framework:10.0-b28" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.core:glassfish:10.0-b28" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.admin:launcher:10.0-b28" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.admin:config-api:10.0-b28" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish:javax.enterprise.deploy:10.0-b28" level="project" />
   </component>
 </module>
