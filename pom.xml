@@ -119,7 +119,7 @@
                         <configuration>
                             <type>runtime</type>
                             <properties>
-                                <cargo.hostname>172.31.44.231</cargo.hostname>
+                                <cargo.hostname>http://172.31.44.231</cargo.hostname>
                                 <cargo.remote.username>${glassfish.dev.user}</cargo.remote.username>
                                 <cargo.remote.password>${glassfish.dev.password}</cargo.remote.password>
                             </properties>
