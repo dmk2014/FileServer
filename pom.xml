@@ -119,7 +119,7 @@
                         <configuration>
                             <type>runtime</type>
                             <properties>
-                                <cargo.hostname>http://172.31.44.231</cargo.hostname>
+                                <cargo.hostname>https://172.31.44.231</cargo.hostname>
                                 <cargo.remote.port>4848</cargo.remote.port>
 								<cargo.glassfish.domain.name>domain1</cargo.glassfish.domain.name>
                                 <cargo.remote.username>${glassfish.local.user}</cargo.remote.username>
