@@ -82,20 +82,5 @@
     <orderEntry type="library" name="Maven: isorelax:isorelax:20020414" level="project" />
     <orderEntry type="library" name="Maven: org.apache.ant:ant:1.7.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.ant:ant-launcher:1.7.1" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.deployment:deployment-client:10.0-b28" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.common:common-util:10.0-b28" level="project" />
-    <orderEntry type="library" name="Maven: com.sun.enterprise:hk2:0.3.31" level="project" />
-    <orderEntry type="library" name="Maven: com.sun.enterprise:hk2-core:0.3.31" level="project" />
-    <orderEntry type="library" name="Maven: com.sun.enterprise:config:0.3.31" level="project" />
-    <orderEntry type="library" name="Maven: com.sun.enterprise:tiger-types-osgi:0.3.31" level="project" />
-    <orderEntry type="library" name="Maven: com.sun.enterprise:auto-depends:0.3.31" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.common:glassfish-api:10.0.422" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish:javax.xml.stream:10.0-b28" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.admin:admin-cli:10.0-b28" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.admin:cli-framework:10.0-b28" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.core:glassfish:10.0-b28" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.admin:launcher:10.0-b28" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.admin:config-api:10.0-b28" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish:javax.enterprise.deploy:10.0-b28" level="project" />
   </component>
 </module>

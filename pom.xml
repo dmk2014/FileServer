@@ -21,12 +21,6 @@
 			<artifactId>cargo-maven2-plugin</artifactId>
 			<version>1.4.13</version>
 		</dependency>
-		
-		<dependency>
-			<groupId>org.glassfish.deployment</groupId>
-			<artifactId>deployment-client</artifactId>
-			<version>10.0-b28</version>
-		</dependency>
     </dependencies>
 
     <pluginRepositories>
@@ -144,7 +138,7 @@
                     <dependency>
                         <groupId>org.glassfish.deployment</groupId>
                         <artifactId>deployment-client</artifactId>
-                        <version>10.0-b28</version>
+                        <version>3.2-b06</version>
                     </dependency>
                 </dependencies>
 			</plugin>
