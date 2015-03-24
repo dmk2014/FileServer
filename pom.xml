@@ -120,6 +120,8 @@
                             <type>runtime</type>
                             <properties>
                                 <cargo.hostname>http://172.31.44.231</cargo.hostname>
+                                <cargo.protocol>http</cargo.protocol>
+                                <cargo.servlet.port>8080</cargo.servlet.port>
                                 <cargo.remote.username>${glassfish.dev.user}</cargo.remote.username>
                                 <cargo.remote.password>${glassfish.dev.password}</cargo.remote.password>
                             </properties>
