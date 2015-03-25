@@ -85,18 +85,17 @@
                 </configuration>
 
                 <dependencies>
-                    <!--<dependency>
+                    <dependency>
                         <groupId>org.glassfish.deployment</groupId>
                         <artifactId>deployment-client</artifactId>
                         <version>3.2-b06</version>
                     </dependency>
-                    -->
 
-                    <dependency>
+                    <!--<dependency>
                         <groupId>org.glassfish.main.deployment</groupId>
                         <artifactId>deployment-client</artifactId>
                         <version>4.1</version>
-                    </dependency>
+                    </dependency>-->
                 </dependencies>
 			</plugin>
         </plugins>
