@@ -122,18 +122,19 @@
                                 <cargo.hostname>172.31.44.231</cargo.hostname>
                                 <cargo.protocol>http</cargo.protocol>
                                 <cargo.servlet.port>8080</cargo.servlet.port>
-                                <cargo.remote.timeout>2000000</cargo.remote.timeout>
+                                <cargo.glassfish.domain.name>domain1</cargo.glassfish.domain.name>
                                 <cargo.remote.username>${glassfish.dev.user}</cargo.remote.username>
                                 <cargo.remote.password>${glassfish.dev.password}</cargo.remote.password>
                             </properties>
                         </configuration>
 						
-						<!--<deployables>
+						<deployables>
                             <deployable>
-                                <location>target/FileServer.war</location>
+                                <groupId>ftp</groupId>
+                                <artifactId>FileServer</artifactId>
                                 <type>war</type>
                             </deployable>
-                        </deployables> -->
+                        </deployables>
                 </configuration>
 
                 <dependencies>
@@ -153,12 +154,4 @@
 			</plugin>
         </plugins>
     </build>
-
-<!--    <distributionManagement>
-        <repository>
-            <id>DEV</id>
-            <url></url>
-        </repository>
-    </distributionManagement>
--->
 </project>
