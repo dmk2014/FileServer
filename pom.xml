@@ -84,23 +84,18 @@
                             <type>runtime</type>
                             <properties>
                                 <cargo.hostname>172.31.44.231</cargo.hostname>
-                                <cargo.glassfish.domain.name>/domain1</cargo.glassfish.domain.name>
+                                <cargo.glassfish.domain.name>domain1</cargo.glassfish.domain.name>
                                 <cargo.remote.username>${glassfish.dev.user}</cargo.remote.username>
                                 <cargo.remote.password>${glassfish.dev.password}</cargo.remote.password>
                             </properties>
                         </configuration>
 
-                        <deployer>
-                            <type>remote</type>
-                        </deployer>
-
                         <deployables>
                             <deployable>
-                                <location>target/FileServer.war</location>
+                                <location>target\FileServer.war</location>
                                 <type>war</type>
                             </deployable>
                         </deployables>
-
                 </configuration>
 
                 <dependencies>
