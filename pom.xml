@@ -15,12 +15,6 @@
             <artifactId>jaxws-rt</artifactId>
             <version>2.1.3</version>
         </dependency>
-		
-		<dependency>
-			<groupId>org.codehaus.cargo</groupId>
-			<artifactId>cargo-maven2-plugin</artifactId>
-			<version>1.4.13</version>
-		</dependency>
     </dependencies>
 
     <pluginRepositories>
@@ -29,20 +23,7 @@
             <name>Java.net Maven2 Repository</name>
             <url>http://download.java.net/maven/2</url>
         </pluginRepository>
-
-        <!-- http://cargo.codehaus.org/JSR88 -->
-        <pluginRepository>
-            <id>glassfish</id>
-            <url>http://download.java.net/maven/glassfish</url>
-        </pluginRepository>
     </pluginRepositories>
-
-    <repositories>
-        <repository>
-            <id>glassfish</id>
-            <url>http://download.java.net/maven/glassfish</url>
-        </repository>
-    </repositories>
 
     <build>
         <finalName>FileServer</finalName>
@@ -56,6 +37,7 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
@@ -74,36 +56,7 @@
                     </webResources>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.glassfish.maven.plugin</groupId>
-                <artifactId>maven-glassfish-plugin</artifactId>
-                <version>2.1</version>
-                <configuration>
-                    <glassfishDirectory>C:\glassfish-4.1\glassfish4</glassfishDirectory>
-                    <user>${local.glassfish.user}</user>
-                    <adminPassword>${local.glassfish.adminPassword}</adminPassword>
-                    <domain>
-                        <name>domain1</name>
-                        <host>http://172.31.44.231</host>
-                        <httpPort>8080</httpPort>
-                        <adminPort>4848</adminPort>
-                    </domain>
-                    <components>
-                        <component>
-                            <name>FileServer</name>
-                            <artifact>target/FileServer.war</artifact>
-                        </component>
-                    </components>
-                </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>deploy</goal> <!--  mvn glassfish:deploy without this, mvn deploy -->
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-			
+
 			<plugin>
 				<groupId>org.codehaus.cargo</groupId>
 				<artifactId>cargo-maven2-plugin</artifactId>
@@ -113,8 +66,6 @@
                         <container>
                             <containerId>glassfish4x</containerId>
                             <type>remote</type>
-                            <log>target/cargo.log</log>
-                            <logLevel>debug</logLevel>
                         </container>
                         <configuration>
                             <type>runtime</type>
