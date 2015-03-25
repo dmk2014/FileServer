@@ -23,7 +23,20 @@
             <name>Java.net Maven2 Repository</name>
             <url>http://download.java.net/maven/2</url>
         </pluginRepository>
+
+        <!-- http://cargo.codehaus.org/JSR88 -->
+        <pluginRepository>
+            <id>glassfish</id>
+            <url>http://download.java.net/maven/glassfish</url>
+        </pluginRepository>
     </pluginRepositories>
+
+    <repositories>
+        <repository>
+            <id>glassfish</id>
+            <url>http://download.java.net/maven/glassfish</url>
+        </repository>
+    </repositories>
 
     <build>
         <finalName>FileServer</finalName>
@@ -71,11 +84,23 @@
                             <type>runtime</type>
                             <properties>
                                 <cargo.hostname>172.31.44.231</cargo.hostname>
-                                <cargo.glassfish.domain.name>domain1</cargo.glassfish.domain.name>
+                                <cargo.glassfish.domain.name>/domain1</cargo.glassfish.domain.name>
                                 <cargo.remote.username>${glassfish.dev.user}</cargo.remote.username>
                                 <cargo.remote.password>${glassfish.dev.password}</cargo.remote.password>
                             </properties>
                         </configuration>
+
+                        <deployer>
+                            <type>remote</type>
+                        </deployer>
+
+                        <deployables>
+                            <deployable>
+                                <location>target/FileServer.war</location>
+                                <type>war</type>
+                            </deployable>
+                        </deployables>
+
                 </configuration>
 
                 <dependencies>
