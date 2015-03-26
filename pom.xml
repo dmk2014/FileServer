@@ -88,7 +88,7 @@
                             	<artifactId>${project.artifactId}</artifactId>
                             	<type>war</type>
                             	<properties>
-                                	<context>/</context>
+                                	<context>/FileServer</context>
                             	</properties>
                         </deployable>
                         </deployables>
