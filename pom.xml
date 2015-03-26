@@ -88,7 +88,7 @@
                             	<artifactId>${project.artifactId}</artifactId>
                             	<type>war</type>
                             	<properties>
-                                	<context>/domain1</context>
+                                	<context>/</context>
                             	</properties>
                         </deployable>
                         </deployables>
