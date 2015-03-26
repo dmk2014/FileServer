@@ -78,10 +78,19 @@
                         </configuration>
 
                         <deployables>
-                            <deployable>
+                            <!--<deployable>
                                 <location>target\FileServer.war</location>
                                 <type>war</type>
-                            </deployable>
+                            </deployable>-->
+                            
+                            <deployable>
+                            	<groupId>${project.groupId}</groupId>
+                            	<artifactId>${project.artifactId}</artifactId>
+                            	<type>war</type>
+                            	<properties>
+                                	<context>/domain1</context>
+                            	</properties>
+                        </deployable>
                         </deployables>
                 </configuration>
 
