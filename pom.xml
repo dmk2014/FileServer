@@ -70,9 +70,10 @@
                         <configuration>
                             <type>runtime</type>
                             <properties>
-                                <cargo.hostname>172.31.44.231</cargo.hostname>
+                                <cargo.hostname>172.31.34.232</cargo.hostname>
                                 <cargo.remote.username>${glassfish.dev.user}</cargo.remote.username>
                                 <cargo.remote.password>${glassfish.dev.password}</cargo.remote.password>
+                                <cargo.glassfish.domain.name>/domain1</cargo.glassfish.domain.name>
                             </properties>
                         </configuration>
 
