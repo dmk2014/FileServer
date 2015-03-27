@@ -60,7 +60,7 @@
 			<plugin>
 				<groupId>org.codehaus.cargo</groupId>
 				<artifactId>cargo-maven2-plugin</artifactId>
-				<version>1.4.0</version>
+				<version>1.4.13</version>
 				
 				<configuration>
                         <container>
@@ -78,11 +78,6 @@
                         </configuration>
 
                         <deployables>
-                            <!--<deployable>
-                                <location>target\FileServer.war</location>
-                                <type>war</type>
-                            </deployable>-->
-                            
                             <deployable>
                             	<groupId>${project.groupId}</groupId>
                             	<artifactId>${project.artifactId}</artifactId>
@@ -95,12 +90,6 @@
                 </configuration>
 
                 <dependencies>
-                    <!--<dependency>
-                        <groupId>org.glassfish.deployment</groupId>
-                        <artifactId>deployment-client</artifactId>
-                        <version>3.2-b06</version>
-                    </dependency>-->
-
                     <dependency>
                         <groupId>org.glassfish.main.deployment</groupId>
                         <artifactId>deployment-client</artifactId>
