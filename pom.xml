@@ -85,7 +85,7 @@
                             	<properties>
                                 	<context>/FileServer</context>
                             	</properties>
-                        </deployable>
+                            </deployable>
                         </deployables>
                 </configuration>
 
