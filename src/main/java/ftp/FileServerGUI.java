@@ -15,7 +15,7 @@ public class FileServerGUI {
     FileServer server;
     TextArea serverOutput;
 
-    //Constructor - build the GUI with required components
+    // Constructor - build the GUI with required components
     public FileServerGUI() {
         frame = new JFrame();
         frame.setTitle("FileServer");
