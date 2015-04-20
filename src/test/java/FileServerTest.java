@@ -21,7 +21,7 @@ public class FileServerTest {
 
     @Test
     public void testLogin() throws Exception {
-        String userToLogin = "";
+        String userToLogin = "Michael";
         boolean result = ftpServer.login(userToLogin);
 
         Assert.assertTrue(result);
